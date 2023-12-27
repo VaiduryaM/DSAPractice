@@ -1,7 +1,7 @@
 # DSAPractice
 
 # December 2023
-# Day 22 
+# 12/22/2023 
 1. Search in Rotated Sorted Array (https://leetcode.com/problems/search-in-rotated-sorted-array/)
 Time complexity: O(log N)
 Space complexity: O(1)
@@ -14,7 +14,7 @@ Space complexity:
 Time complexity: O(log m + log n)
 Space complexity: O(1)
 
-# Day 23
+# 12/23/2023
 1. Find Minimum in Rotated Sorted Array (https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 Time complexity: O(log N)
 Space complexity: O(1)
@@ -27,3 +27,15 @@ Space complexity: O(1)
 Time complexity: O(log N)
 Space complexity: O(1)
 
+# 12/25/2023
+1. Isomorphic Strings (https://leetcode.com/problems/isomorphic-strings/description/)
+Time complexity: O(N)
+Space complexity: O(1)
+
+2. Group Anagrams (https://leetcode.com/problems/group-anagrams/description/)
+Time complexity: O(m * nlogn) m = length of string of vectors; k = max length of string; sorting takes O(nlogn)
+Space complexity: O(m*n)
+
+3. Word Pattern (https://leetcode.com/problems/word-pattern/description/)
+Time complexity: O(m+n) m = length of sentence; n = length of pattern
+Space complexity: O(W) where W represents the number of unique words in s. Even though we have two hash maps, the character to word hash map has space complexity of O(1) since there can at most be 26 keys.
