@@ -1,6 +1,16 @@
 # DSAPractice
 
 # December 2023
+
+# 12/20/2023
+1. Design HashSet (https://leetcode.com/problems/design-hashset/description/)
+Time complexity: O(N/b) = N is all possible values that can be added; b is number of buckets (prime numbers, here its 769)
+Space complexity: O(n+b) = n is number of unique values that can be added; b number of buckets
+
+2. Min Stack (https://leetcode.com/problems/min-stack/description/)
+Time complexity: O(1)
+Space complexity: O(n)
+
 # 12/22/2023 
 1. Search in Rotated Sorted Array (https://leetcode.com/problems/search-in-rotated-sorted-array/)
 Time complexity: O(log N)
