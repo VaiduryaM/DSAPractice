@@ -17,8 +17,8 @@ Time complexity: O(log N)
 Space complexity: O(1)
 
 2. Search in a Sorted Array of Unknown Size (https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/)
-Time complexity: 
-Space complexity: 
+Time complexity: O(Log N)
+Space complexity: O(1)
 
 3. Search a 2D Matrix (https://leetcode.com/problems/search-a-2d-matrix/)
 Time complexity: O(log m + log n)
@@ -49,3 +49,17 @@ Space complexity: O(m*n)
 3. Word Pattern (https://leetcode.com/problems/word-pattern/description/)
 Time complexity: O(m+n) m = length of sentence; n = length of pattern
 Space complexity: O(W) where W represents the number of unique words in s. Even though we have two hash maps, the character to word hash map has space complexity of O(1) since there can at most be 26 keys.
+
+# 12/27/2023
+
+1. Longest Palindrome (https://leetcode.com/problems/longest-palindrome/description/)
+Time complexity: O(N)
+Space complexity: O(1)
+
+2. Contiguous Array (https://leetcode.com/problems/contiguous-array/description/)
+Time complexity: O(N)
+Space complexity: O(N)
+
+3. Subarray Sum Equals K (https://leetcode.com/problems/subarray-sum-equals-k/description/)
+Time complexity: O(N)
+Space complexity: O(N)
